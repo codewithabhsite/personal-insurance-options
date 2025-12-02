@@ -1,0 +1,2084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PERSONAL INSURANCE OPTIONS – Secure Your Future</title>
+  <meta name="description" content="Find the perfect personal insurance plan to protect you and your loved ones. Life, Health, Auto and more – tailored to your needs." />
+  <meta name="robots" content="index,follow" />
+  <link id="canonicalLink" rel="canonical" href="elements/logo.png.webp" />
+  <link rel="icon" href="elements/logo.png.webp" type="image/webp">
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="PERSONAL INSURANCE OPTIONS — Personal Insurance Australia" />
+  <meta property="og:description" content="Find the perfect personal insurance plan to protect you and your loved ones. Life, Health, Auto and more – tailored to your needs." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" id="ogUrl" />
+  <meta property="og:image" content="elements/hero-img-1.svg" />
+  <meta property="og:site_name" content="Personal Insurance Options" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PERSONAL INSURANCE OPTIONS — Personal Insurance Australia" />
+  <meta name="twitter:description" content="Find the perfect personal insurance plan to protect you and your loved ones." />
+  <meta name="twitter:image" content="elements/hero-img-1.svg" />
+
+  <!-- FONTS: Modern stack -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Structured Data: Organization + FAQ -->
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Personal Insurance Options",
+        "url": "",
+        "logo": "elements/logo.svg",
+        "contactPoint": [{"@type":"ContactPoint","telephone":"1300 XXX XXX","contactType":"customer service","areaServed":"AU"}]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What types of personal insurance do you offer?",
+            "acceptedAnswer": {"@type":"Answer","text":"We offer a comprehensive range of personal insurance, including life, health, auto, and home insurance. We work with you to find the perfect plan that fits your needs and budget."}
+          },
+          {
+            "@type": "Question",
+            "name": "How do I get a quote?",
+            "acceptedAnswer": {"@type":"Answer","text":"Getting a quote is easy! Fill out our contact form and one of our expert agents will get back to you shortly. You can also call us to speak with a representative."}
+          },
+          {
+            "@type": "Question",
+            "name": "Why is personal insurance important?",
+            "acceptedAnswer": {"@type":"Answer","text":"Personal insurance provides financial protection against unexpected life events. It ensures that you and your loved ones are covered in case of an accident, illness, or other unforeseen circumstances, giving you peace of mind."}
+          }
+        ]
+      }
+    ]
+  }</script>
+  <style>
+    :root {
+      /* Modern Dark Theme with Accents */
+      --bg: #0a0a0a;
+      --bg-soft: #111111;
+      --card: #1a1a1a;
+      --text: #ffffff;
+      --muted: #a1a1aa;
+      --primary: #3b82f6;
+      --primary-2: #60a5fa;
+      --accent: #f59e0b;
+      --success: #10b981;
+      --danger: #ef4444;
+      --shadow: 0 8px 32px rgba(0,0,0,0.3);
+      --radius: 16px;
+      --gap: 32px;
+      --container-width: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Poppins', Inter, sans-serif;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* Accessibility */
+    .skip-link {
+      position: absolute;
+      left: 12px;
+      top: 12px;
+      background: var(--primary);
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 8px;
+      z-index: 2000;
+      transform: translateY(-120%);
+      transition: transform 0.18s ease;
+    }
+
+    .skip-link:focus {
+      transform: none;
+      outline: 3px solid #fff;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    :focus {
+      outline: 3px solid var(--primary);
+      outline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .partner-slider { animation: none !important; }
+      * { transition: none !important; }
+    }
+
+    .container {
+      max-width: var(--container-width);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(10,10,10,0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      transition: all 0.3s ease;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 0;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo-icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      display: grid;
+      place-items: center;
+      box-shadow: var(--shadow);
+    }
+
+    .logo-icon svg {
+      width: 28px;
+      height: 28px;
+      fill: #fff;
+    }
+
+    .logo-text h1 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      color: var(--text);
+    }
+
+    .logo-text p {
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 32px;
+    }
+
+    .nav-links a {
+      position: relative;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      height: 2px;
+      width: 0;
+      background: linear-gradient(90deg, var(--primary), var(--primary-2));
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .cta-button {
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 50px;
+      font-weight: 600;
+      box-shadow: 0 8px 24px rgba(59,130,246,0.3);
+      transition: all 0.3s ease;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(59,130,246,0.4);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: transparent;
+      border: 0;
+      color: #fff;
+      font-size: 28px;
+    }
+
+    @media (max-width: 900px) {
+      .nav-links {
+        display: none;
+      }
+      .mobile-menu-btn {
+        display: block;
+      }
+    }
+
+    /* Mobile menu */
+    .mobile-drawer {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      backdrop-filter: blur(8px);
+      display: none;
+      z-index: 1500;
+    }
+
+    .mobile-panel {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 80%;
+      max-width: 350px;
+      background: var(--card);
+      padding: 24px;
+      border-left: 1px solid rgba(255,255,255,0.1);
+      box-shadow: var(--shadow);
+    }
+
+    .mobile-panel ul {
+      list-style: none;
+      display: grid;
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .mobile-panel a {
+      color: var(--muted);
+      font-weight: 500;
+      padding: 12px 16px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .mobile-panel a:hover {
+      color: #fff;
+      background: rgba(255,255,255,0.1);
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle at 20% 80%, rgba(59,130,246,0.1) 0%, transparent 50%),
+                  radial-gradient(circle at 80% 20%, rgba(245,158,11,0.1) 0%, transparent 50%);
+    }
+
+    .hero .container {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      align-items: center;
+      gap: var(--gap);
+      padding: 120px 20px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h2 {
+      font-size: clamp(3rem, 6vw, 4.5rem);
+      line-height: 1.1;
+      margin-bottom: 20px;
+      font-weight: 800;
+      background: linear-gradient(135deg, #fff 0%, var(--primary) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -1px;
+    }
+
+    .hero p {
+      font-size: 1.125rem;
+      color: var(--muted);
+      margin-bottom: 32px;
+      max-width: 600px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      color: #fff;
+      padding: 16px 32px;
+      border-radius: 50px;
+      font-weight: 600;
+      box-shadow: 0 8px 24px rgba(59,130,246,0.3);
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(59,130,246,0.4);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.2);
+      color: #fff;
+      padding: 16px 32px;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.1);
+      transform: translateY(-2px);
+    }
+
+    .hero-art {
+      position: relative;
+      display: grid;
+      place-items: center;
+    }
+
+    .hero-art img {
+      width: 100%;
+      max-width: 500px;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
+    }
+
+    .hero-badge {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: rgba(245,158,11,0.1);
+      border: 1px solid rgba(245,158,11,0.3);
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 0.875rem;
+      color: var(--accent);
+      backdrop-filter: blur(10px);
+    }
+
+    @media (max-width: 900px) {
+      .hero .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding-top: 100px;
+      }
+      .hero-art {
+        order: -1;
+        margin-bottom: 40px;
+      }
+    }
+
+    /* Section Styles */
+    section {
+      padding: 80px 0;
+    }
+
+    .section-title {
+      display: grid;
+      gap: 12px;
+      justify-items: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      background: linear-gradient(135deg, #fff 0%, var(--primary) 50%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.125rem;
+    }
+
+    /* Cards */
+    .help-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--gap);
+    }
+
+    .help-card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .help-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+    }
+
+    .help-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    .card-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(245,158,11,0.1));
+      border: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 20px;
+    }
+
+    .help-card h3 {
+      margin-bottom: 12px;
+      font-size: 1.25rem;
+    }
+
+    .help-card p {
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .card-link {
+      color: var(--primary-2);
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-link::after {
+      content: "→";
+      transition: transform 0.3s ease;
+    }
+
+    .card-link:hover::after {
+      transform: translateX(4px);
+    }
+
+    /* Steps */
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 20px;
+      position: relative;
+    }
+
+    .steps-grid::before {
+      content: "";
+      position: absolute;
+      left: 10%;
+      right: 10%;
+      height: 2px;
+      top: -20px;
+      background: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, var(--primary) 50%, rgba(255,255,255,0.1) 100%);
+    }
+
+    .step-item {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+      box-shadow: var(--shadow);
+      position: relative;
+    }
+
+    .step-number {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0 auto 16px;
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      font-size: 1.75rem;
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      box-shadow: 0 8px 24px rgba(59,130,246,0.3);
+    }
+
+    /* About */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .stat-box {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .stat-box h3 {
+      color: var(--primary);
+      font-size: 2rem;
+      font-weight: 800;
+    }
+
+    .stat-box p {
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+    }
+
+    /* Products */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--gap);
+    }
+
+    .product-card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+      box-shadow: var(--shadow);
+      transition: all 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    }
+
+    .product-card h3 {
+      margin: 16px 0 8px;
+      font-size: 1.25rem;
+    }
+
+    .product-card p {
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .learn-more {
+      color: var(--primary-2);
+      font-weight: 600;
+    }
+
+    @media (max-width: 1100px) {
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 620px) {
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Why Choose */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 20px;
+    }
+
+    .feature-card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    }
+
+    .feature-card::after {
+      content: "";
+      position: absolute;
+      right: -16px;
+      top: -16px;
+      width: 80px;
+      height: 80px;
+      background: radial-gradient(circle at 30% 30%, rgba(59,130,246,0.1), transparent 60%);
+      border-radius: 50%;
+    }
+
+    .feature-card p {
+      color: var(--muted);
+    }
+
+    @media (max-width: 1000px) {
+      .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 620px) {
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Partners */
+    .our-partners {
+      background: var(--bg-soft);
+    }
+
+    .partner-logos {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .partner-logos .logo-wrap {
+      flex: 0 0 auto;
+      padding: 8px 16px;
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+    }
+
+    .partner-logos .logo-wrap:hover {
+      transform: translateY(-3px);
+    }
+
+    .partner-logos img {
+      max-height: 48px;
+      object-fit: contain;
+    }
+
+    @keyframes partner-scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .partner-slider {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      animation: partner-scroll 30s linear infinite;
+    }
+
+    .partner-slider:hover {
+      animation-play-state: paused;
+    }
+
+    /* Testimonials */
+    .testimonial-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--gap);
+    }
+
+    .testimonial-card {
+      background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+    }
+
+    .testimonial-text {
+      font-size: 1.125rem;
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .testimonial-author img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(255,255,255,0.2);
+    }
+
+    .author-name {
+      font-weight: 600;
+      font-size: 1.125rem;
+    }
+
+    .author-info {
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 800px) {
+      .testimonial-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* FAQ */
+    .faq-accordion {
+      display: grid;
+      gap: 16px;
+    }
+
+    .faq-item {
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      overflow: hidden;
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+
+    .faq-question {
+      width: 100%;
+      background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+      border: 0;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 24px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .faq-question:hover {
+      background: rgba(255,255,255,0.05);
+    }
+
+    .faq-icon {
+      transition: transform 0.3s ease;
+      font-size: 1.5rem;
+    }
+
+    .faq-item.open .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      padding: 0 24px;
+      color: var(--muted);
+    }
+
+    .faq-item.open .faq-answer {
+      max-height: 400px;
+      padding: 0 24px 24px;
+    }
+
+    /* Contact */
+    .contact-content {
+      display: grid;
+      grid-template-columns: 1fr 0.9fr;
+      gap: 40px;
+    }
+
+    .contact-form,
+    .contact-info {
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+      backdrop-filter: blur(20px);
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      backdrop-filter: blur(8px);
+      display: none;
+      z-index: 1500;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-backdrop.show {
+      display: flex;
+    }
+
+    .modal {
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius);
+      padding: 40px;
+      max-width: 500px;
+      width: 90%;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+      backdrop-filter: blur(20px);
+      position: relative;
+    }
+
+    .modal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .modal-head h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .close-btn {
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: var(--muted);
+      transition: color 0.3s ease;
+      padding: 4px;
+      border-radius: 4px;
+    }
+
+    .close-btn:hover {
+      color: var(--text);
+      background: rgba(255,255,255,0.1);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .modal .input-wrapper input,
+    .modal .input-wrapper select {
+      width: 100%;
+      padding: 16px 16px 16px 48px;
+      border-radius: 12px;
+      border: 2px solid rgba(255,255,255,0.2);
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+      color: var(--text);
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    .modal .input-wrapper input:focus,
+    .modal .input-wrapper select:focus {
+      border-color: var(--primary);
+      background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(245,158,11,0.1));
+      box-shadow: 0 0 20px rgba(59,130,246,0.3);
+      transform: translateY(-2px);
+    }
+
+    .modal .input-wrapper input:hover,
+    .modal .input-wrapper select:hover {
+      border-color: rgba(255,255,255,0.4);
+      background: linear-gradient(135deg, rgba(255,255,255,0.12), rgba(255,255,255,0.06));
+    }
+
+    .modal .input-wrapper:focus-within .input-icon {
+      opacity: 1;
+      color: var(--primary);
+    }
+
+    .modal .btn-primary,
+    .modal .btn-secondary {
+      flex: 1;
+      padding: 16px 24px;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .modal .btn-primary {
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      color: #fff;
+      box-shadow: 0 8px 24px rgba(59,130,246,0.3);
+    }
+
+    .modal .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(59,130,246,0.4);
+    }
+
+    .modal .btn-secondary {
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.2);
+      color: #fff;
+    }
+
+    .modal .btn-secondary:hover {
+      background: rgba(255,255,255,0.1);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 600px) {
+      .modal {
+        padding: 24px;
+        margin: 20px;
+      }
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+
+    .input-wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .input-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+      pointer-events: none;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+    }
+
+    .input-wrapper input,
+    .input-wrapper select {
+      width: 100%;
+      padding: 16px 16px 16px 48px;
+      border-radius: 12px;
+      border: 2px solid rgba(255,255,255,0.2);
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+      color: var(--text);
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    .input-wrapper textarea {
+      width: 100%;
+      padding: 16px 16px 16px 48px;
+      border-radius: 12px;
+      border: 2px solid rgba(255,255,255,0.2);
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+      color: var(--text);
+      font-size: 1rem;
+      min-height: 120px;
+      resize: vertical;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    .input-wrapper input:focus,
+    .input-wrapper select:focus,
+    .input-wrapper textarea:focus {
+      border-color: var(--primary);
+      background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(245,158,11,0.1));
+      box-shadow: 0 0 20px rgba(59,130,246,0.3);
+      transform: translateY(-2px);
+    }
+
+    .input-wrapper input:hover,
+    .input-wrapper select:hover,
+    .input-wrapper textarea:hover {
+      border-color: rgba(255,255,255,0.4);
+      background: linear-gradient(135deg, rgba(255,255,255,0.12), rgba(255,255,255,0.06));
+    }
+
+    .input-wrapper:focus-within .input-icon {
+      opacity: 1;
+      color: var(--primary);
+    }
+
+    .error-message {
+      color: var(--danger);
+      font-size: 0.875rem;
+      margin-top: 4px;
+      margin-left: 16px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .error-message.show {
+      opacity: 1;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: var(--muted);
+    }
+
+    .enhanced-btn {
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      color: #fff;
+      padding: 18px 36px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      box-shadow: 0 8px 24px rgba(59,130,246,0.3);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .enhanced-btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s ease;
+    }
+
+    .enhanced-btn:hover::before {
+      left: 100%;
+    }
+
+    .enhanced-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(59,130,246,0.5);
+      background: linear-gradient(135deg, var(--primary-2), var(--primary));
+    }
+
+    .enhanced-btn:active {
+      transform: translateY(-1px);
+    }
+
+    .enhanced-btn.loading {
+      pointer-events: none;
+    }
+
+    .enhanced-btn .spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top: 2px solid #fff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      display: none;
+    }
+
+    .enhanced-btn.loading .spinner {
+      display: block;
+    }
+
+    .enhanced-btn.loading .btn-text {
+      display: none;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .subscribe-form {
+      display: flex;
+      gap: 8px;
+    }
+
+    .subscribe-form input {
+      flex: 1;
+    }
+
+    .subscribe-form button {
+      padding: 12px 20px;
+      border-radius: 12px;
+      border: 0;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .subscribe-form button:hover {
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 900px) {
+      .contact-content {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* CTA Banner */
+    .cta-banner {
+      margin: 80px 0;
+    }
+
+    .cta-banner .container {
+      background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(245,158,11,0.1));
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 24px;
+      padding: 40px;
+      display: grid;
+      gap: 16px;
+      justify-items: center;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .cta-banner h2 {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+
+    /* Footer */
+    footer {
+      background: #000;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin-top: 80px;
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 32px;
+      padding: 40px 0;
+    }
+
+    .footer-about p {
+      color: var(--muted);
+      margin-top: 12px;
+    }
+
+    .footer-links ul {
+      list-style: none;
+      display: grid;
+      gap: 8px;
+    }
+
+    .footer-links a {
+      color: var(--muted);
+      transition: color 0.3s ease;
+    }
+
+    .footer-links a:hover {
+      color: var(--primary);
+    }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .social-links a img {
+      width: 28px;
+      height: 28px;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+    }
+
+    .social-links a:hover img {
+      opacity: 1;
+    }
+
+    @media (max-width: 900px) {
+      .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+    }
+
+    /* Floating CTA */
+    .floating-cta {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      color: #fff;
+      border-radius: 50px;
+      padding: 16px 24px;
+      display: none;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 10px 24px rgba(59,130,246,0.3);
+      z-index: 1200;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .floating-cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 32px rgba(59,130,246,0.4);
+    }
+
+    @media (max-width: 780px) {
+      .floating-cta {
+        display: inline-flex;
+      }
+    }
+
+    #back-to-top-btn {
+      position: fixed;
+      right: 20px;
+      bottom: 90px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 0;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow);
+      z-index: 1200;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    #back-to-top-btn:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-3px);
+    }
+
+    #back-to-top-btn.show {
+      display: inline-flex;
+    }
+
+    /* Reveal Animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* Micro-interactions */
+    .help-cards,
+    .product-grid,
+    .features-grid,
+    .testimonial-cards,
+    .faq-accordion {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .help-cards.visible,
+    .product-grid.visible,
+    .features-grid.visible,
+    .testimonial-cards.visible,
+    .faq-accordion.visible {
+      opacity: 1;
+      transform: none;
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#maincontent">Skip to content</a>
+  <header>
+    <div class="container">
+      <nav role="navigation" aria-label="Main Navigation">
+        <div class="logo-container">
+          <img id="Logo" src="elements/logo.png.webp" alt="PERSONAL INSURANCE OPTIONS Logo" style="width:60px;height:60px;border-radius:12px;object-fit:cover;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)" />
+          <div class="logo-text">
+            <h1>PERSONAL INSURANCE OPTIONS</h1>
+            <p>Secure Your Future</p>
+          </div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#how-we-help">Services</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="cta-button">Get a Free Quote</a>
+        <button class="mobile-menu-btn" aria-label="Open menu" aria-controls="mobileDrawer" aria-expanded="false">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-panel">
+      <div class="logo-container" style="margin-bottom:12px">
+        <img src="elements/logo.png.webp" alt="PERSONAL INSURANCE OPTIONS Logo" style="width:40px;height:40px;border-radius:10px;object-fit:cover;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)" />
+        <div class="logo-text">
+          <h1>PERSONAL INSURANCE OPTIONS</h1>
+        </div>
+      </div>
+      <ul>
+        <li><a href="#how-we-help" data-close>Services</a></li>
+        <li><a href="#faq" data-close>FAQ</a></li>
+        <li><a href="#testimonials" data-close>Testimonials</a></li>
+        <li><a href="#contact" data-close>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="maincontent">
+    <section class="hero">
+      <div class="container">
+        <div>
+          <div class="hero-badge">Over 25,000 policies optimized</div>
+          <h2>Secure Your Future, Today.</h2>
+          <p>Find the perfect insurance plan to protect you and your loved ones. We offer a wide range of personal insurance options tailored to your needs.</p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn-primary">Explore Options</a>
+            <a href="#contact" class="btn-secondary">Speak to an Expert</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="elements/hero.png" alt="Illustration of a man and a woman sitting" loading="eager" fetchpriority="high" />
+        </div>
+      </div>
+    </section>
+
+    <section class="how-we-help" id="how-we-help">
+      <div class="container">
+        <div class="section-title">
+          <h2>How We Can Help</h2>
+        </div>
+        <p class="section-subtitle">We help with anything to do with personal insurance, whether that's taking out new insurance, updating existing or making a claim.</p>
+        <div class="help-cards">
+          <div class="help-card reveal">
+            <div class="card-icon">
+              <img src="elements/3.png.webp" alt="New Insurance Icon" style="width:48px;height:48px;border-radius:12px;object-fit:cover;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)" />
+                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" fill="url(#grad1)"/>
+                <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h3>New Insurance</h3>
+            <p>We teach you the information you need, search the market for your best options, and fill out the application forms with you.</p>
+            <a href="#contact" class="card-link">Learn More →</a>
+          </div>
+          <div class="help-card reveal">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H19V9Z" fill="url(#grad2)"/>
+                <path d="M15 12H17V14H15V12ZM15 16H17V18H15V16ZM11 12H13V14H11V12ZM11 16H13V18H11V16ZM7 12H9V14H7V12ZM7 16H9V18H7V16Z" fill="url(#grad2)"/>
+                <defs>
+                  <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h3>Policy Updates</h3>
+            <p>Bought a house? Had a child? Life changes and so should your insurance. We'll check your cover is up-to-date and cost-effective.</p>
+            <a href="#contact" class="card-link">Learn More →</a>
+          </div>
+          <div class="help-card reveal">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 11H7V13H9V11ZM13 11H11V13H13V11ZM17 11H15V13H17V11ZM19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4ZM19 20H5V9H19V20Z" fill="url(#grad3)"/>
+                <path d="M16.5 6L15.09 7.41L17.67 10L16.5 11.17L18.09 12.76L20.67 10.17L19.5 9L16.5 6Z" fill="url(#grad3)"/>
+                <defs>
+                  <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#34d399;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h3>Making A Claim</h3>
+            <p>Claim time can be stressful. We lift the insurance work off your shoulders so you can focus on your family and your recovery.</p>
+            <a href="#contact" class="card-link">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="three-steps">
+      <div class="container">
+        <div class="section-title"><h2>Three Steps To Peace Of Mind</h2></div>
+        <p class="section-subtitle">We give you the information you need, help you explore the market for the best choices, and work with you to complete the application forms.</p>
+        <div class="steps-grid">
+          <div class="step-item reveal">
+            <div class="step-number">1</div>
+            <h3>Learn</h3>
+            <p>We teach you about each type of insurance in detail and explain how you can tailor it to your own life.</p>
+          </div>
+          <div class="step-item reveal">
+            <div class="step-number">2</div>
+            <h3>Choose</h3>
+            <p>We'll get you quotes from 90% of Australia's leading retail insurers so you can just pick the best one.</p>
+          </div>
+          <div class="step-item reveal">
+            <div class="step-number">3</div>
+            <h3>Apply</h3>
+            <p>With your choice of insurer, we ask you what they need to know and send in the paperwork for you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-grid">
+          <div>
+            <div class="section-title" style="justify-items:start;text-align:left">
+              <h2>About Us</h2>
+            </div>
+            <p>We are dedicated to providing Australians with access to the best personal insurance solutions available. With our extensive network and expert knowledge, we help you find the right coverage to protect you and your family's financial future.</p>
+            <p>Our team of experienced advisors works with you to understand your unique circumstances and recommend the most suitable insurance options from our comprehensive panel of insurers.</p>
+            <p>We believe insurance should be simple, transparent, and accessible to everyone. That's why we've built strong relationships with Australia's leading insurance providers to bring you competitive rates and exceptional coverage.</p>
+          </div>
+          <div>
+            <div class="stats">
+              <div class="stat-box reveal"><h3>90%</h3><p>Of Australia's Retail Insurers</p></div>
+              <div class="stat-box reveal"><h3>10,000+</h3><p>Clients Protected</p></div>
+              <div class="stat-box reveal"><h3>15+</h3><p>Years Experience</p></div>
+              <div class="stat-box reveal"><h3>4.8★</h3><p>Customer Rating</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="container">
+        <div class="section-title"><h2>Our Insurance Solutions</h2></div>
+        <p class="section-subtitle">Comprehensive coverage options designed to protect your lifestyle</p>
+        <div class="product-grid">
+          <div class="product-card reveal">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" fill="url(#lifeGrad)"/>
+                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" stroke="url(#lifeGrad)" stroke-width="0.5"/>
+                <defs>
+                  <linearGradient id="lifeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#f87171;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h3>Life Insurance</h3>
+            <p>Provide financial security for your loved ones with comprehensive life coverage.</p>
+            <a href="#contact" class="learn-more">Learn More →</a>
+          </div>
+          <div class="product-card reveal">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H19V9Z" fill="url(#incomeGrad)"/>
+                <path d="M15 12H17V14H15V12ZM15 16H17V18H15V16ZM11 12H13V14H11V12ZM11 16H13V18H11V16ZM7 12H9V14H7V12ZM7 16H9V18H7V16Z" fill="url(#incomeGrad)"/>
+                <defs>
+                  <linearGradient id="incomeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#34d399;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h3>Income Protection</h3>
+            <p>Safeguard your income if you're unable to work due to illness or injury.</p>
+            <a href="#contact" class="learn-more">Learn More →</a>
+          </div>
+          <div class="product-card reveal">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM9 7C9 5.9 9.9 5 11 5H13C14.1 5 15 5.9 15 7V9H9V7ZM3 12V14H5V12H3ZM19 12V14H21V12H19ZM12 9C13.66 9 15 10.34 15 12V22H9V12C9 10.34 10.34 9 12 9Z" fill="url(#tpdGrad)"/>
+                <defs>
+                  <linearGradient id="tpdGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h3>TPD Insurance</h3>
+            <p>Lump sum payment if you can never work again due to injury or illness.</p>
+            <a href="#contact" class="learn-more">Learn More →</a>
+          </div>
+          <div class="product-card reveal">
+            <div class="card-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21.35L10.55 20.03C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5C22 12.27 18.6 15.36 13.45 20.03L12 21.35Z" fill="url(#traumaGrad)"/>
+                <defs>
+                  <linearGradient id="traumaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h3>Trauma Insurance</h3>
+            <p>Receive a lump sum if diagnosed with a specified critical illness.</p>
+            <a href="#contact" class="learn-more">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-choose" id="why-choose-us">
+      <div class="container">
+        <div class="section-title"><h2>Why Choose Personal Insurance Options</h2></div>
+        <p class="section-subtitle">Experience the difference with our customer-first approach</p>
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <h3>Tailored Solutions</h3>
+            <p>We take the time to understand your unique situation and recommend insurance solutions that perfectly match your needs and budget.</p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Expert Guidance</h3>
+            <p>Our experienced advisors guide you through every step, making insurance simple and easy to understand.</p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Independent Advice</h3>
+            <p>With access to 90% of Australia's retail insurers, we provide unbiased recommendations focused solely on your best interests.</p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Quick & Easy Process</h3>
+            <p>Our streamlined application process gets you covered quickly without unnecessary complexity or paperwork.</p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Ongoing Support</h3>
+            <p>We're here for you throughout your policy's lifetime, not just at the point of sale.</p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Competitive Rates</h3>
+            <p>Our partnerships with leading insurers ensure excellent coverage at competitive premiums.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-partners" id="partners">
+      <div class="container">
+        <div class="section-title"><h2>Partnered with 90% of Australia's Retail Insurers</h2></div>
+        <p class="section-subtitle">Access to leading insurance providers ensures you get the best coverage at competitive rates</p>
+        <div class="partner-logos reveal">
+          <div class="partner-slider" aria-hidden="true">
+            <div class="logo-wrap"><img src="elements/partner-aia.svg" alt="AIA Australia"></div>
+            <div class="logo-wrap"><img src="elements/partner-tal.svg" alt="TAL" loading="lazy"></div>
+            <div class="logo-wrap"><img src="elements/partner-mlc.svg" alt="MLC"></div>
+            <div class="logo-wrap"><img src="elements/partner-onepath.svg" alt="OnePath"></div>
+            <div class="logo-wrap"><img src="elements/partner-zurich.svg" alt="Zurich"></div>
+            <div class="logo-wrap"><img src="elements/partner-metlife.svg" alt="MetLife"></div>
+            <div class="logo-wrap"><img src="elements/partner-neos.svg" alt="NEOS"></div>
+            <div class="logo-wrap"><img src="elements/partner-encompass.svg" alt="Encompass"></div>
+            <div class="logo-wrap"><img src="elements/partner-aia.svg" alt="AIA Australia"></div>
+            <div class="logo-wrap"><img src="elements/partner-tal.svg" alt="TAL"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-title"><h2>Frequently Asked Questions</h2></div>
+        <p class="section-subtitle">Here are some common questions about our insurance plans. If you have more questions, feel free to contact us.</p>
+        <div class="faq-accordion">
+          <div class="faq-item reveal">
+            <button class="faq-question"><span>What types of personal insurance do you offer?</span><span class="faq-icon">+</span></button>
+            <div class="faq-answer"><p>We offer a comprehensive range of personal insurance, including life, health, auto, and home insurance. We work with you to find the perfect plan that fits your needs and budget.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question"><span>How do I get a quote?</span><span class="faq-icon">+</span></button>
+            <div class="faq-answer"><p>Getting a quote is easy! Fill out our contact form and one of our expert agents will get back to you shortly. You can also call us to speak with a representative.</p></div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question"><span>Why is personal insurance important?</span><span class="faq-icon">+</span></button>
+            <div class="faq-answer"><p>Personal insurance provides financial protection against unexpected life events. It ensures that you and your loved ones are covered in case of an accident, illness, or other unforeseen circumstances, giving you peace of mind.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-title"><h2>What Our Clients Say</h2></div>
+        <p class="section-subtitle">We take pride in the positive feedback we receive from our valued clients.</p>
+        <div class="testimonial-cards">
+          <div class="testimonial-card reveal">
+            <p class="testimonial-text">"Personal Insurance Options made the process of getting life insurance so easy and straightforward. Their agents are knowledgeable and truly care about their clients. I highly recommend them!"</p>
+            <div class="testimonial-author">
+              <img src="elements/Untitled design (16).png" alt="Sarah L.">
+              <div>
+                <p class="author-name">Sarah L.</p>
+                <p class="author-info">Family Health Plan</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal">
+            <p class="testimonial-text">"I was able to save a significant amount on my auto insurance by switching to Personal Insurance Options. Their team was incredibly helpful and found me the best deal. Thank you!"</p>
+            <div class="testimonial-author">
+              <img src="elements/Untitled design (18).png" alt="Mark T.">
+              <div>
+                <p class="author-name">Mark T.</p>
+                <p class="author-info">Comprehensive Auto Coverage</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-title"><h2>Get Your Free Quote Today</h2></div>
+        <p class="section-subtitle">Take the first step towards protecting your future. Our experts are ready to help.</p>
+        <div class="contact-content">
+          <div class="contact-form reveal">
+            <form>
+              <div class="form-group">
+                <div class="input-wrapper">
+                  <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z" fill="var(--muted)"/>
+                  </svg>
+                  <input type="text" id="contact-name" placeholder="Full Name *" required aria-describedby="contact-name-error">
+                  <div id="contact-name-error" class="error-message" aria-live="polite"></div>
+                </div>
+                <div class="input-wrapper">
+                  <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 4H4C2.89 4 2.01 4.89 2.01 6L2 18C2 19.11 2.89 20 4 20H20C21.11 20 22 19.11 22 18V6C22 4.89 21.11 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="var(--muted)"/>
+                  </svg>
+                  <input type="email" id="contact-email" placeholder="Email Address *" required aria-describedby="contact-email-error">
+                  <div id="contact-email-error" class="error-message" aria-live="polite"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-wrapper">
+                  <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.69 14.9 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z" fill="var(--muted)"/>
+                  </svg>
+                  <input type="tel" id="contact-phone" placeholder="Phone Number *" required aria-describedby="contact-phone-error">
+                  <div id="contact-phone-error" class="error-message" aria-live="polite"></div>
+                </div>
+                <div class="input-wrapper">
+                  <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10H7Z" fill="var(--muted)"/>
+                    <path d="M3 4H21V6H3V4ZM3 18H21V20H3V18Z" fill="var(--muted)"/>
+                  </svg>
+                  <select id="contact-select" aria-describedby="contact-select-error">
+                    <option>Life Insurance</option>
+                    <option>Income Protection</option>
+                    <option>TPD Insurance</option>
+                    <option>Trauma Insurance</option>
+                    <option>Multiple Products</option>
+                  </select>
+                  <div id="contact-select-error" class="error-message" aria-live="polite"></div>
+                </div>
+              </div>
+              <div class="input-wrapper textarea-wrapper">
+                <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 11H7V9H9V11ZM11 11H9V13H11V11ZM13 11H11V13H13V11ZM15 11H13V13H15V11ZM17 11H15V13H17V11ZM7 7H9V9H7V7ZM11 7H9V9H11V7ZM13 7H11V9H13V7ZM15 7H13V9H15V7ZM17 7H15V9H17V7ZM3 3V21H21V3H3ZM19 19H5V5H19V19Z" fill="var(--muted)"/>
+                </svg>
+                <textarea id="contact-message" placeholder="Message (Optional)" aria-describedby="contact-message-error"></textarea>
+                <div id="contact-message-error" class="error-message" aria-live="polite"></div>
+              </div>
+              <button type="submit" class="btn-primary enhanced-btn">Get My Free Quote</button>
+            </form>
+          </div>
+          <div class="contact-info reveal">
+            <h3>Contact Information</h3>
+            <p><strong>Company:</strong> Personal Insurance Options</p>
+            <p><strong>Phone:</strong> 1300 XXX XXX</p>
+            <p><strong>Email:</strong> info@personalinsuranceoptions.com.au</p>
+            <p><strong>Coverage:</strong> Australia Wide</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container reveal">
+        <h2>Ready to Find Your Perfect Plan?</h2>
+        <p>Let our experts guide you. Get a free, no-obligation quote today and take the first step towards a secure future.</p>
+        <a href="#" class="btn-primary" data-open-quote>Get a Free Quote</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="ariaLive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <div class="modal-backdrop" id="quoteModal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="quoteTitle">
+      <div class="modal-head">
+        <h3 id="quoteTitle">Request a Free Quote</h3>
+        <button class="close-btn" id="modalClose" aria-label="Close">✕</button>
+      </div>
+      <form id="modalQuoteForm">
+        <div class="grid-2">
+          <div class="input-wrapper">
+            <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z" fill="var(--muted)"/>
+            </svg>
+            <input type="text" name="first" placeholder="First name *" required aria-describedby="first-error">
+            <div id="first-error" class="error-message" aria-live="polite"></div>
+          </div>
+          <div class="input-wrapper">
+            <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z" fill="var(--muted)"/>
+            </svg>
+            <input type="text" name="last" placeholder="Last name *" required aria-describedby="last-error">
+            <div id="last-error" class="error-message" aria-live="polite"></div>
+          </div>
+        </div>
+        <div class="input-wrapper" style="margin-top:16px;">
+          <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4C2.89 4 2.01 4.89 2.01 6L2 18C2 19.11 2.89 20 4 20H20C21.11 20 22 19.11 22 18V6C22 4.89 21.11 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="var(--muted)"/>
+          </svg>
+          <input type="email" name="email" placeholder="Email *" required aria-describedby="email-error">
+          <div id="email-error" class="error-message" aria-live="polite"></div>
+        </div>
+        <div class="grid-2" style="margin-top:16px;">
+          <div class="input-wrapper">
+            <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.69 14.9 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z" fill="var(--muted)"/>
+            </svg>
+            <input type="tel" name="phone" placeholder="Phone" aria-describedby="phone-error">
+            <div id="phone-error" class="error-message" aria-live="polite"></div>
+          </div>
+          <div class="input-wrapper">
+            <svg class="input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 10L12 15L17 10H7Z" fill="var(--muted)"/>
+              <path d="M3 4H21V6H3V4ZM3 18H21V20H3V18Z" fill="var(--muted)"/>
+            </svg>
+            <select name="product" aria-describedby="product-error">
+              <option>Life Insurance</option>
+              <option>Income Protection</option>
+              <option>TPD Insurance</option>
+              <option>Trauma Insurance</option>
+            </select>
+            <div id="product-error" class="error-message" aria-live="polite"></div>
+          </div>
+        </div>
+        <div style="margin-top:20px;display:flex;gap:10px">
+          <button type="submit" class="btn-primary enhanced-btn" style="flex:1">Request Quote</button>
+          <button type="button" id="modalCancel" class="btn-secondary" style="flex:1">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>PERSONAL INSURANCE OPTIONS</h3>
+          <p>Your trusted partner for comprehensive personal insurance solutions across Australia.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#how-we-help">Services</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <h3>Subscribe to our Newsletter</h3>
+          <p>Get the latest news and updates from Personal Insurance Options.</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your Email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Personal Insurance Options. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="#"><img src="elements/icon-facebook.svg" alt="Facebook"></a>
+          <a href="#"><img src="elements/icon-twitter.svg" alt="Twitter"></a>
+          <a href="#"><img src="elements/icon-linkedin.svg" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#contact" class="floating-cta" aria-label="Get a free quote">Get Quote</a>
+  <button id="back-to-top-btn" title="Back to top" aria-label="Back to top">↑</button>
+
+  <script>
+    // Mobile drawer
+    const drawer = document.getElementById('mobileDrawer');
+    const btn = document.querySelector('.mobile-menu-btn');
+    const closeable = () => drawer.querySelectorAll('[data-close]');
+
+    btn.addEventListener('click', ()=>{
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      if(!expanded){
+        drawer.style.display = 'block';
+        drawer.setAttribute('aria-hidden','false');
+        const first = drawer.querySelector('[data-close]');
+        if(first) first.focus();
+      } else {
+        drawer.style.display = 'none';
+        drawer.setAttribute('aria-hidden','true');
+        btn.focus();
+      }
+    });
+
+    drawer.addEventListener('click', e=>{ if(e.target === drawer){ drawer.style.display='none'; drawer.setAttribute('aria-hidden','true'); btn.setAttribute('aria-expanded','false'); btn.focus(); } });
+    closeable().forEach(a=>a.addEventListener('click', ()=>{ drawer.style.display='none'; drawer.setAttribute('aria-hidden','true'); btn.setAttribute('aria-expanded','false'); btn.focus(); }));
+
+    // FAQ toggle
+    document.querySelectorAll('.faq-item').forEach(item=>{
+      const q=item.querySelector('.faq-question');
+      q.addEventListener('click',()=>{item.classList.toggle('open')});
+    });
+
+    // Back to top
+    const backBtn=document.getElementById('back-to-top-btn');
+    const onScroll=()=>{ if(window.scrollY>600) backBtn.classList.add('show'); else backBtn.classList.remove('show'); };
+    window.addEventListener('scroll',onScroll,{passive:true});
+    backBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+    // Reveal
+    const observe = new IntersectionObserver(entries=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('visible'); observe.unobserve(e.target);} });
+    },{threshold:.18});
+    document.querySelectorAll('.reveal').forEach(el=>observe.observe(el));
+
+    // Modal
+    (function(){
+      const modal = document.getElementById('quoteModal');
+      const dialog = modal.querySelector('.modal');
+      const modalClose = document.getElementById('modalClose');
+      const modalCancel = document.getElementById('modalCancel');
+      const openers = document.querySelectorAll('[data-open-quote]');
+      const modalForm = document.getElementById('modalQuoteForm');
+      let lastFocused = null;
+
+      function getFocusable(container){
+        return Array.from(container.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'));
+      }
+
+      function openModal(e){
+        if(e) e.preventDefault();
+        lastFocused = document.activeElement;
+        modal.classList.add('show');
+        modal.setAttribute('aria-hidden','false');
+        const focusable = getFocusable(modal);
+        if(focusable.length) focusable[0].focus();
+        document.addEventListener('keydown', onKeyDown);
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal(){
+        modal.classList.remove('show');
+        modal.setAttribute('aria-hidden','true');
+        document.removeEventListener('keydown', onKeyDown);
+        document.body.style.overflow = '';
+        if(lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+      }
+
+      function onKeyDown(e){
+        if(e.key === 'Escape') return closeModal();
+        if(e.key !== 'Tab') return;
+        const focusable = getFocusable(modal);
+        if(!focusable.length) return;
+        const first = focusable[0];
+        const last = focusable[focusable.length -1];
+        if(e.shiftKey){ if(document.activeElement === first){ e.preventDefault(); last.focus(); } }
+        else { if(document.activeElement === last){ e.preventDefault(); first.focus(); } }
+      }
+
+      openers.forEach(btn=>btn.addEventListener('click', openModal));
+      modalClose.addEventListener('click', closeModal);
+      modalCancel.addEventListener('click', closeModal);
+      modal.addEventListener('click', e=>{ if(e.target === modal) closeModal(); });
+
+      modalForm.addEventListener('submit', async (e)=>{
+        e.preventDefault();
+        const formData = new FormData(modalForm);
+        const dataObj = Object.fromEntries(formData.entries());
+
+        function showSuccess(){
+          modalForm.innerHTML = '<div style="padding:24px;text-align:center"><h3>Thanks — we\'ll be in touch</h3><p style="color:var(--muted)">One of our advisors will contact you shortly with your personalised quote.</p><button class="btn-primary" id="modalCloseInline" style="margin-top:14px">Close</button></div>';
+          const live = document.getElementById('ariaLive');
+          if(live) live.textContent = "Thanks — we'll be in touch. One of our advisors will contact you shortly.";
+          const closeInline = document.getElementById('modalCloseInline');
+          if(closeInline) closeInline.addEventListener('click', closeModal);
+        }
+
+        function mailtoFallback(){
+          const to = 'info@personalinsuranceoptions.com.au';
+          const subject = encodeURIComponent('Website Quote Request');
+          const bodyLines = [];
+          for(const [k,v] of Object.entries(dataObj)) bodyLines.push(`${k}: ${v}`);
+          const body = encodeURIComponent(bodyLines.join('\n'));
+          const mailto = `mailto:${to}?subject=${subject}&body=${body}`;
+          window.location.href = mailto;
+          showSuccess();
+        }
+
+        if(window.FORM_ENDPOINT){
+          try{
+            const res = await fetch(window.FORM_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(dataObj)});
+            if(res.ok) {
+              showSuccess();
+            } else {
+              mailtoFallback();
+            }
+          } catch(err){
+            mailtoFallback();
+          }
+        } else {
+          mailtoFallback();
+        }
+      });
+    })();
+
+    // Configure logo
+    window.PIO_LOGO_URL = 'elements/logo.svg';
+    const el = document.getElementById('brandLogo');
+    if (el) el.src = window.PIO_LOGO_URL;
+
+    // Set canonical and OG URL
+    try{
+      const can = document.getElementById('canonicalLink');
+      if(can) can.href = window.location.href;
+      const og = document.getElementById('ogUrl');
+      if(og) og.content = window.location.href;
+      const ld = document.querySelector('script[type="application/ld+json"]');
+      if(ld){
+        try{
+          const obj = JSON.parse(ld.textContent);
+          if(obj && obj['@graph'] && obj['@graph'][0] && obj['@graph'][0].url === ""){
+            obj['@graph'][0].url = window.location.origin;
+            ld.textContent = JSON.stringify(obj);
+          }
+        }catch(e){}
+      }
+    }catch(e){}
+  </script>
+</body>
+</html>
